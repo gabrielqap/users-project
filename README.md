@@ -10,12 +10,15 @@ Em seguida, faça a instalação do mongodb. No ubuntu foram realizado os seguin
 sudo apt update
 sudo apt install -y mongodb
 ```
-Verifique se o banco está rodando 
+Verifique se o banco está rodando, pois é necessário que sim.
 
 ```
 sudo systemctl status mongodb
 ```
-Se sim, agora basta executar o projeto na pasta
+
+## Execução
+
+Feito todas as intruçes anteriores, basta executar o projeto na pasta
 
 ```
 npm run dev
@@ -23,4 +26,4 @@ npm run dev
 
 Para verificar se está rodando, acesse no navegador atraves de:
 
-[http://localhost:3001/api/users](http://localhost:3001/api/users)
+http://localhost:3001/api/users
