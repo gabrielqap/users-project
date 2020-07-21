@@ -20,3 +20,7 @@ Se sim, agora basta executar o projeto na pasta
 ```
 npm run dev
 ```
+
+Para verificar se está rodando, basta acessar no navegador atraveś de:
+
+http://localhost:3001/api/users
