@@ -21,6 +21,7 @@ sudo systemctl status mongodb
 Feito todas as intruçes anteriores, basta executar o projeto na pasta
 
 ```
+npm install
 npm run dev
 ```
 
